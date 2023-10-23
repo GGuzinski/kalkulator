@@ -18,6 +18,7 @@ const zero = document.querySelector('#zero');
 const dot = document.querySelector('#kropka');
 const equals = document.querySelector('#rowna');
 const input = document.querySelector('#input');*/
+
 const display = document.querySelector('#display');
 const btns = document.querySelectorAll('button');
 
@@ -30,14 +31,15 @@ let output = '';
 
 for( let i =0; i <btns.length; i++){
     btns[i].addEventListener('click', function(){
-        if (nums.includes(btns[i].value)) {
-            
+        if (nums.includes(buttons.value)) {
+            buttons.value += output;
         }  
-       
+      
 
         
     })
 }
+
 
 
 
