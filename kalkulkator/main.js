@@ -18,27 +18,26 @@ const zero = document.querySelector('#zero');
 const dot = document.querySelector('#kropka');
 const equals = document.querySelector('#rowna');
 const input = document.querySelector('#input');*/
-
 const display = document.querySelector('#display');
 const btns = document.querySelectorAll('button');
 
 const nums = ['0','1','2','3','4','5','6','7','8','9','.'];
-const btns = ['+', '-','*','/'];
+const buttons = ['+', '-','*','/','='];
 
 let num1 = '';
 let num2 = '';
-let 
+let output = '';
 
 for( let i =0; i <btns.length; i++){
     btns[i].addEventListener('click', function(){
         if (nums.includes(btns[i].value)) {
-            num1+=btns[i].value
-           
-
-        }
+            
+        }  
+       
 
         
     })
 }
+
 
 
