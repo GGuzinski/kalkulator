@@ -1,0 +1,17 @@
+HTML 
+1.Znaczniki semantyczne (hedder, main, section, aside, footer)
+2.Sposób na rozmieszczenie
+
+
+JS
+1.Wyszukanie elementów
+2.Obiekt nasłuchujący do przycisku (addEventListener)
+3.Funkcja anonimowa z rejestacją zdarzenia
+4.preventDefault()
+5.Pobieranie danych -> konwersja typu
+6.Obliczenia 
+7.Wypiswywanie danych 
+8.Instrukcja warunkowa (if, else, else if)     
+
+
+
